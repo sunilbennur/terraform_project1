@@ -1,3 +1,7 @@
+#Author : Sunil Rathod
+#Description: created two instance for 3 tier arch application practice
+########################################################################
+
 resource "aws_instance" "web" {
   ami                         = "ami-0557a15b87f6559cf"
   instance_type               = "t2.micro"
