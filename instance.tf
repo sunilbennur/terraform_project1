@@ -3,7 +3,7 @@
 ########################################################################
 
 resource "aws_instance" "web" {
-  ami                         = "ami-0557a15b87f6559cf"
+  ami                         = "ami-0557a15b87f655f"
   instance_type               = "t2.micro"
   key_name                    = "keypair"
   subnet_id                   = aws_subnet.public[count.index].id
