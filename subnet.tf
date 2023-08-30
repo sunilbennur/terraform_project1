@@ -31,6 +31,6 @@ data "aws_subnets" "sid" {
   }
 
   tags = {
-    Tier = "Public"
+    Tier = "PublicSubnet"
   }
 }
