@@ -32,6 +32,6 @@ resource "aws_default_route_table" "dfltrtb" {
   }
 
   tags = {
-    Name = "dfltrtb"
+    Name = "dfltrtb1"
   }
 }
